@@ -48,6 +48,8 @@
 
         <header-file src="src/ios/UILocalNotification+APPLocalNotification.h" />
         <source-file src="src/ios/UILocalNotification+APPLocalNotification.m" />
+
+        <framework src="AudioToolbox.framework" weak="true" />
     </platform>
 
     <!-- android -->
